@@ -9,7 +9,7 @@ class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=_ENV_FILE, env_file_encoding="utf-8", extra="ignore")
 
     # Database
-    database_url: str = "postgresql+psycopg://privmail:privmail@localhost:5432/privmail"
+    database_url: str = "postgresql+psycopg://mail_assistant:mail_assistant@localhost:5432/mail_assistant"
 
     # AI provider: "local" uses Ollama, "cloud" uses Anthropic
     ai_provider: str = "local"

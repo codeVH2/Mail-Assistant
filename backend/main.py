@@ -3,11 +3,11 @@ from fastapi.middleware.cors import CORSMiddleware ##for frontend be able to cal
 
 from config import settings
 
-import routers.auth
+from routers import auth
 
 
 app = FastAPI(
-    title="PrivMail",
+    title="Mail Assistant",
     description="Privacy-first AI email assistant",
     version="0.1.0",
     debug=settings.debug,
@@ -26,4 +26,4 @@ app.add_middleware(
 async def health():
     return {"status": "ok", "ai_provider": settings.ai_provider}
 
-app.include_router(routers.auth.router)
+app.include_router(auth.router)

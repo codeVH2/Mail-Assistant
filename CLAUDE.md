@@ -1,4 +1,4 @@
-# PrivMail — Privacy-First AI Email Assistant
+# Mail Assistant — Privacy-First AI Email Assistant
 
 This is a bachelor thesis project investigating whether locally-hosted LLMs can match cloud APIs in quality for email assistance tasks, while preserving user privacy by design.
 

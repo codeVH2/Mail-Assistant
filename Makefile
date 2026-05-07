@@ -10,7 +10,7 @@ logs:
 	docker compose logs -f
 
 shell:
-	docker compose exec db psql -U privmail -d privmail
+	docker compose exec db psql -U mail_assistant -d mail_assistant
 
 install:
 	cd backend && pip3 install -r requirements.txt
