@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware ##for frontend be able to cal
 
 from config import settings
 
-from routers import auth
+from routers import auth, emails
 
 
 app = FastAPI(
@@ -27,3 +27,4 @@ async def health():
     return {"status": "ok", "ai_provider": settings.ai_provider}
 
 app.include_router(auth.router)
+app.include_router(emails.router)
