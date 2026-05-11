@@ -18,7 +18,29 @@ def extract_body(payload):
             data = part["body"]["data"]
             return base64.urlsafe_b64decode(data).decode("utf-8")
 
+    print("No plain text body found in this email")
     return ""
+
+# Reads a single header (e.g. "From", "Subject") from a Gmail message.
+# Headers live in a list of {name, value} pairs — there's no direct dict lookup.
+def extract_header(message, header_name):
+    for header in message["payload"]["headers"]:
+        if header["name"] == header_name:
+            return header["value"]
+    return ""
+
+
+# Flattens a Gmail thread into "[sender]: body" lines so the LLM gets the full
+# conversation as context, not just the latest message in isolation.
+def build_conversation(thread, user_email):
+    lines = []
+    for msg in thread["messages"]:
+        sender = extract_header(msg, "From")
+        if user_email in sender:
+            sender = "Me"
+        body = extract_body(msg["payload"])
+        lines.append(f"[{sender}]: {body}")
+    return "\n\n".join(lines)
 
 
 router = APIRouter()
@@ -29,30 +51,36 @@ router = APIRouter()
 async def list_emails():
     credentials = token_store["credentials"]
     service = build("gmail", "v1", credentials=credentials)
-    results = service.users().messages().list(userId="me", maxResults=10).execute()
+    results = service.users().messages().list(userId="me", maxResults=10, labelIds=["INBOX"]).execute()
     return results
 
 
 # Generates a reply suggestion for a given Gmail message.
 # Email content lives only in memory during this call — never persisted.
 @router.post("/reply-suggest")
-async def reply_suggest(message_id: str):
+async def reply_suggest(thread_id: str):
     credentials = token_store["credentials"]
     service = build("gmail", "v1", credentials=credentials)
 
-    # Fetch the email
-    message = service.users().messages().get(
-        userId="me", id=message_id, format="full"
-    ).execute()
-
-    # Decode body from base64
-    body_text = extract_body(message["payload"])
+    thread = service.users().threads().get(
+        userId="me", id=thread_id, format="full").execute()
+    
+    profile = service.users().getProfile(userId="me").execute()
+    conversation = build_conversation(thread, profile["emailAddress"])
 
     # Provider selected via AI_PROVIDER env var (local Ollama or cloud Anthropic)
     provider = get_provider()
     responseSuggestion = await provider.complete(
-        f"Suggest short answer for this email:\n\n{body_text}"
+        f"""You are the recipient of the latest message in this email conversation.
+            Write a short, natural reply to the latest message.
+            Do not summarise the conversation. Reply as if you were the person being addressed.
+
+            Conversation:
+            {conversation}
+
+            Your reply:"""
     )
+
 
     return {"respose": responseSuggestion}
 
