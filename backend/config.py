@@ -5,6 +5,9 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 _ENV_FILE = Path(__file__).parent.parent / ".env"
 
 
+# BaseSettings auto-loads values from the .env file:
+# each field name (lowercase) maps to its uppercase env var (e.g. ai_provider <- AI_PROVIDER).
+# Defaults below are used only when the variable is missing from .env.
 class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=_ENV_FILE, env_file_encoding="utf-8", extra="ignore")
 
@@ -32,4 +35,5 @@ class Settings(BaseSettings):
     debug: bool = True
 
 
+# Single shared instance imported across the app: triggers the .env load on first import
 settings = Settings()
