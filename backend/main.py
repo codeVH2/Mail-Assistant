@@ -5,7 +5,6 @@ from config import settings
 
 from routers import auth, emails
 
-
 app = FastAPI(
     title="Mail Assistant",
     description="Privacy-first AI email assistant",
@@ -21,10 +20,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-
 @app.get("/health")
 async def health():
     return {"status": "ok", "ai_provider": settings.ai_provider}
 
 app.include_router(auth.router)
 app.include_router(emails.router)
+
