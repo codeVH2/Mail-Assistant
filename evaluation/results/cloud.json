@@ -1,0 +1,2702 @@
+[
+  {
+    "id": "239957",
+    "category_gold": "work",
+    "score_gold": 0.7,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.7,
+    "raw": "{\"category\": \"work\", \"score\": 0.7}"
+  },
+  {
+    "id": "239957",
+    "category_gold": "work",
+    "score_gold": 0.7,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.7,
+    "raw": "{\"category\": \"work\", \"score\": 0.7}"
+  },
+  {
+    "id": "239957",
+    "category_gold": "work",
+    "score_gold": 0.7,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.7,
+    "raw": "{\"category\": \"work\", \"score\": 0.7}"
+  },
+  {
+    "id": "230660",
+    "category_gold": "work",
+    "score_gold": 0.5,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.7,
+    "raw": "{\"category\": \"work\", \"score\": 0.7}"
+  },
+  {
+    "id": "230660",
+    "category_gold": "work",
+    "score_gold": 0.5,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.7,
+    "raw": "{\"category\": \"work\", \"score\": 0.7}"
+  },
+  {
+    "id": "230660",
+    "category_gold": "work",
+    "score_gold": 0.5,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.7,
+    "raw": "{\"category\": \"work\", \"score\": 0.7}"
+  },
+  {
+    "id": "work_1",
+    "category_gold": "work",
+    "score_gold": 0.2,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "newsletter",
+    "scoreFromAI": 0.3,
+    "raw": "{\"category\": \"newsletter\", \"score\": 0.3}"
+  },
+  {
+    "id": "work_1",
+    "category_gold": "work",
+    "score_gold": 0.2,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.3,
+    "raw": "{\"category\": \"work\", \"score\": 0.3}"
+  },
+  {
+    "id": "work_1",
+    "category_gold": "work",
+    "score_gold": 0.2,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.3,
+    "raw": "{\"category\": \"work\", \"score\": 0.3}"
+  },
+  {
+    "id": "work_2",
+    "category_gold": "work",
+    "score_gold": 0.4,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.8,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.8}"
+  },
+  {
+    "id": "work_2",
+    "category_gold": "work",
+    "score_gold": 0.4,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.85}"
+  },
+  {
+    "id": "work_2",
+    "category_gold": "work",
+    "score_gold": 0.4,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.8,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.8}"
+  },
+  {
+    "id": "work_3",
+    "category_gold": "work",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 1.0,
+    "raw": "{\"category\": \"urgent\", \"score\": 1.0}"
+  },
+  {
+    "id": "work_3",
+    "category_gold": "work",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 1.0,
+    "raw": "{\"category\": \"urgent\", \"score\": 1.0}"
+  },
+  {
+    "id": "work_3",
+    "category_gold": "work",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 1.0,
+    "raw": "{\"category\": \"urgent\", \"score\": 1.0}"
+  },
+  {
+    "id": "work_4",
+    "category_gold": "work",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.3,
+    "raw": "{\"category\": \"work\", \"score\": 0.3}"
+  },
+  {
+    "id": "work_4",
+    "category_gold": "work",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.3,
+    "raw": "{\"category\": \"work\", \"score\": 0.3}"
+  },
+  {
+    "id": "work_4",
+    "category_gold": "work",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.3,
+    "raw": "{\"category\": \"work\", \"score\": 0.3}"
+  },
+  {
+    "id": "work_5",
+    "category_gold": "work",
+    "score_gold": 0.5,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.65,
+    "raw": "{\"category\": \"work\", \"score\": 0.65}"
+  },
+  {
+    "id": "work_5",
+    "category_gold": "work",
+    "score_gold": 0.5,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.7,
+    "raw": "{\"category\": \"work\", \"score\": 0.7}"
+  },
+  {
+    "id": "work_5",
+    "category_gold": "work",
+    "score_gold": 0.5,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.65,
+    "raw": "{\"category\": \"work\", \"score\": 0.65}"
+  },
+  {
+    "id": "work_6",
+    "category_gold": "work",
+    "score_gold": 0.7,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.9,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.9}"
+  },
+  {
+    "id": "work_6",
+    "category_gold": "work",
+    "score_gold": 0.7,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.9,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.9}"
+  },
+  {
+    "id": "work_6",
+    "category_gold": "work",
+    "score_gold": 0.7,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.9,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.9}"
+  },
+  {
+    "id": "work_7",
+    "category_gold": "work",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 1.0,
+    "raw": "{\"category\": \"urgent\", \"score\": 1.0}"
+  },
+  {
+    "id": "work_7",
+    "category_gold": "work",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 1.0,
+    "raw": "{\"category\": \"urgent\", \"score\": 1.0}"
+  },
+  {
+    "id": "work_7",
+    "category_gold": "work",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 1.0,
+    "raw": "{\"category\": \"urgent\", \"score\": 1.0}"
+  },
+  {
+    "id": "work_8",
+    "category_gold": "work",
+    "score_gold": 0.8,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "work_8",
+    "category_gold": "work",
+    "score_gold": 0.8,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "work_8",
+    "category_gold": "work",
+    "score_gold": 0.8,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "175336",
+    "category_gold": "work",
+    "score_gold": 0.5,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.4,
+    "raw": "{\"category\": \"work\", \"score\": 0.4}"
+  },
+  {
+    "id": "175336",
+    "category_gold": "work",
+    "score_gold": 0.5,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.4,
+    "raw": "{\"category\": \"work\", \"score\": 0.4}"
+  },
+  {
+    "id": "175336",
+    "category_gold": "work",
+    "score_gold": 0.5,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.4,
+    "raw": "{\"category\": \"work\", \"score\": 0.4}"
+  },
+  {
+    "id": "162902",
+    "category_gold": "work",
+    "score_gold": 0.8,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.7,
+    "raw": "{\"category\": \"work\", \"score\": 0.7}"
+  },
+  {
+    "id": "162902",
+    "category_gold": "work",
+    "score_gold": 0.8,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.9,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.9}"
+  },
+  {
+    "id": "162902",
+    "category_gold": "work",
+    "score_gold": 0.8,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.9,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.9}"
+  },
+  {
+    "id": "work_9",
+    "category_gold": "work",
+    "score_gold": 0.1,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "newsletter",
+    "scoreFromAI": 0.3,
+    "raw": "{\"category\": \"newsletter\", \"score\": 0.3}"
+  },
+  {
+    "id": "work_9",
+    "category_gold": "work",
+    "score_gold": 0.1,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "newsletter",
+    "scoreFromAI": 0.3,
+    "raw": "{\"category\": \"newsletter\", \"score\": 0.3}"
+  },
+  {
+    "id": "work_9",
+    "category_gold": "work",
+    "score_gold": 0.1,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "newsletter",
+    "scoreFromAI": 0.3,
+    "raw": "{\"category\": \"newsletter\", \"score\": 0.3}"
+  },
+  {
+    "id": "work_10",
+    "category_gold": "work",
+    "score_gold": 0.4,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.6,
+    "raw": "{\"category\": \"work\", \"score\": 0.6}"
+  },
+  {
+    "id": "work_10",
+    "category_gold": "work",
+    "score_gold": 0.4,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.6,
+    "raw": "{\"category\": \"work\", \"score\": 0.6}"
+  },
+  {
+    "id": "work_10",
+    "category_gold": "work",
+    "score_gold": 0.4,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.6,
+    "raw": "{\"category\": \"work\", \"score\": 0.6}"
+  },
+  {
+    "id": "work_11",
+    "category_gold": "work",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "promotional",
+    "scoreFromAI": 0.1,
+    "raw": "{\"category\": \"promotional\", \"score\": 0.1}"
+  },
+  {
+    "id": "work_11",
+    "category_gold": "work",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "promotional",
+    "scoreFromAI": 0.1,
+    "raw": "{\"category\": \"promotional\", \"score\": 0.1}"
+  },
+  {
+    "id": "work_11",
+    "category_gold": "work",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "promotional",
+    "scoreFromAI": 0.1,
+    "raw": "{\"category\": \"promotional\", \"score\": 0.1}"
+  },
+  {
+    "id": "work_12",
+    "category_gold": "work",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.3,
+    "raw": "{\"category\": \"work\", \"score\": 0.3}"
+  },
+  {
+    "id": "work_12",
+    "category_gold": "work",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.3,
+    "raw": "{\"category\": \"work\", \"score\": 0.3}"
+  },
+  {
+    "id": "work_12",
+    "category_gold": "work",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.3,
+    "raw": "{\"category\": \"work\", \"score\": 0.3}"
+  },
+  {
+    "id": "work_13",
+    "category_gold": "work",
+    "score_gold": 0.5,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.6,
+    "raw": "{\"category\": \"work\", \"score\": 0.6}"
+  },
+  {
+    "id": "work_13",
+    "category_gold": "work",
+    "score_gold": 0.5,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.6,
+    "raw": "{\"category\": \"work\", \"score\": 0.6}"
+  },
+  {
+    "id": "work_13",
+    "category_gold": "work",
+    "score_gold": 0.5,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.6,
+    "raw": "{\"category\": \"work\", \"score\": 0.6}"
+  },
+  {
+    "id": "work_14",
+    "category_gold": "work",
+    "score_gold": 0.7,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "work_14",
+    "category_gold": "work",
+    "score_gold": 0.7,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "work_14",
+    "category_gold": "work",
+    "score_gold": 0.7,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "work_15",
+    "category_gold": "work",
+    "score_gold": 0.8,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "work_15",
+    "category_gold": "work",
+    "score_gold": 0.8,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "work_15",
+    "category_gold": "work",
+    "score_gold": 0.8,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "work_16",
+    "category_gold": "work",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.98,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.98}"
+  },
+  {
+    "id": "work_16",
+    "category_gold": "work",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.97,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.97}"
+  },
+  {
+    "id": "work_16",
+    "category_gold": "work",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.98,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.98}"
+  },
+  {
+    "id": "137627",
+    "category_gold": "work",
+    "score_gold": 0.7,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.4,
+    "raw": "{\"category\": \"work\", \"score\": 0.4}"
+  },
+  {
+    "id": "137627",
+    "category_gold": "work",
+    "score_gold": 0.7,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.4,
+    "raw": "{\"category\": \"work\", \"score\": 0.4}"
+  },
+  {
+    "id": "137627",
+    "category_gold": "work",
+    "score_gold": 0.7,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.4,
+    "raw": "{\"category\": \"work\", \"score\": 0.4}"
+  },
+  {
+    "id": "136551",
+    "category_gold": "work",
+    "score_gold": 0.8,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.85}"
+  },
+  {
+    "id": "136551",
+    "category_gold": "work",
+    "score_gold": 0.8,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.85}"
+  },
+  {
+    "id": "136551",
+    "category_gold": "work",
+    "score_gold": 0.8,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.85}"
+  },
+  {
+    "id": "work_17",
+    "category_gold": "work",
+    "score_gold": 0.1,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.4,
+    "raw": "{\"category\": \"work\", \"score\": 0.4}"
+  },
+  {
+    "id": "work_17",
+    "category_gold": "work",
+    "score_gold": 0.1,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.35,
+    "raw": "{\"category\": \"work\", \"score\": 0.35}"
+  },
+  {
+    "id": "work_17",
+    "category_gold": "work",
+    "score_gold": 0.1,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.35,
+    "raw": "{\"category\": \"work\", \"score\": 0.35}"
+  },
+  {
+    "id": "work_18",
+    "category_gold": "work",
+    "score_gold": 0.4,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.82,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.82}"
+  },
+  {
+    "id": "work_18",
+    "category_gold": "work",
+    "score_gold": 0.4,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.85}"
+  },
+  {
+    "id": "work_18",
+    "category_gold": "work",
+    "score_gold": 0.4,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.85}"
+  },
+  {
+    "id": "work_19",
+    "category_gold": "work",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.85}"
+  },
+  {
+    "id": "work_19",
+    "category_gold": "work",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.6,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.6}"
+  },
+  {
+    "id": "work_19",
+    "category_gold": "work",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.85}"
+  },
+  {
+    "id": "work_20",
+    "category_gold": "work",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.4,
+    "raw": "{\"category\": \"work\", \"score\": 0.4}"
+  },
+  {
+    "id": "work_20",
+    "category_gold": "work",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.4,
+    "raw": "{\"category\": \"work\", \"score\": 0.4}"
+  },
+  {
+    "id": "work_20",
+    "category_gold": "work",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.4,
+    "raw": "{\"category\": \"work\", \"score\": 0.4}"
+  },
+  {
+    "id": "work_21",
+    "category_gold": "work",
+    "score_gold": 0.5,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.6,
+    "raw": "{\"category\": \"work\", \"score\": 0.6}"
+  },
+  {
+    "id": "work_21",
+    "category_gold": "work",
+    "score_gold": 0.5,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.6,
+    "raw": "{\"category\": \"work\", \"score\": 0.6}"
+  },
+  {
+    "id": "work_21",
+    "category_gold": "work",
+    "score_gold": 0.5,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.6,
+    "raw": "{\"category\": \"work\", \"score\": 0.6}"
+  },
+  {
+    "id": "work_22",
+    "category_gold": "work",
+    "score_gold": 0.8,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "work_22",
+    "category_gold": "work",
+    "score_gold": 0.8,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "work_22",
+    "category_gold": "work",
+    "score_gold": 0.8,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "work_23",
+    "category_gold": "work",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.97,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.97}"
+  },
+  {
+    "id": "work_23",
+    "category_gold": "work",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.98,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.98}"
+  },
+  {
+    "id": "work_23",
+    "category_gold": "work",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.97,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.97}"
+  },
+  {
+    "id": "work_24",
+    "category_gold": "work",
+    "score_gold": 0.7,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "work_24",
+    "category_gold": "work",
+    "score_gold": 0.7,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "work_24",
+    "category_gold": "work",
+    "score_gold": 0.7,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "175736",
+    "category_gold": "personal",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.3,
+    "raw": "{\"category\": \"work\", \"score\": 0.3}"
+  },
+  {
+    "id": "175736",
+    "category_gold": "personal",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.3,
+    "raw": "{\"category\": \"work\", \"score\": 0.3}"
+  },
+  {
+    "id": "175736",
+    "category_gold": "personal",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.3,
+    "raw": "{\"category\": \"work\", \"score\": 0.3}"
+  },
+  {
+    "id": "175318",
+    "category_gold": "personal",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.3,
+    "raw": "{\"category\": \"personal\", \"score\": 0.3}"
+  },
+  {
+    "id": "175318",
+    "category_gold": "personal",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.3,
+    "raw": "{\"category\": \"personal\", \"score\": 0.3}"
+  },
+  {
+    "id": "175318",
+    "category_gold": "personal",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.3,
+    "raw": "{\"category\": \"personal\", \"score\": 0.3}"
+  },
+  {
+    "id": "173954",
+    "category_gold": "personal",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.3,
+    "raw": "{\"category\": \"work\", \"score\": 0.3}"
+  },
+  {
+    "id": "173954",
+    "category_gold": "personal",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.3,
+    "raw": "{\"category\": \"work\", \"score\": 0.3}"
+  },
+  {
+    "id": "173954",
+    "category_gold": "personal",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.3,
+    "raw": "{\"category\": \"work\", \"score\": 0.3}"
+  },
+  {
+    "id": "personal_1",
+    "category_gold": "personal",
+    "score_gold": 0.1,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.2,
+    "raw": "{\"category\": \"work\", \"score\": 0.2}"
+  },
+  {
+    "id": "personal_1",
+    "category_gold": "personal",
+    "score_gold": 0.1,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.1,
+    "raw": "{\"category\": \"work\", \"score\": 0.1}"
+  },
+  {
+    "id": "personal_1",
+    "category_gold": "personal",
+    "score_gold": 0.1,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.2,
+    "raw": "{\"category\": \"work\", \"score\": 0.2}"
+  },
+  {
+    "id": "personal_2",
+    "category_gold": "personal",
+    "score_gold": 0.2,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.3,
+    "raw": "{\"category\": \"personal\", \"score\": 0.3}"
+  },
+  {
+    "id": "personal_2",
+    "category_gold": "personal",
+    "score_gold": 0.2,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.3,
+    "raw": "{\"category\": \"personal\", \"score\": 0.3}"
+  },
+  {
+    "id": "personal_2",
+    "category_gold": "personal",
+    "score_gold": 0.2,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.3,
+    "raw": "{\"category\": \"personal\", \"score\": 0.3}"
+  },
+  {
+    "id": "personal_3",
+    "category_gold": "personal",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.3,
+    "raw": "{\"category\": \"personal\", \"score\": 0.3}"
+  },
+  {
+    "id": "personal_3",
+    "category_gold": "personal",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.3,
+    "raw": "{\"category\": \"personal\", \"score\": 0.3}"
+  },
+  {
+    "id": "personal_3",
+    "category_gold": "personal",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.4,
+    "raw": "{\"category\": \"personal\", \"score\": 0.4}"
+  },
+  {
+    "id": "personal_4",
+    "category_gold": "personal",
+    "score_gold": 0.4,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.3,
+    "raw": "{\"category\": \"personal\", \"score\": 0.3}"
+  },
+  {
+    "id": "personal_4",
+    "category_gold": "personal",
+    "score_gold": 0.4,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.3,
+    "raw": "{\"category\": \"personal\", \"score\": 0.3}"
+  },
+  {
+    "id": "personal_4",
+    "category_gold": "personal",
+    "score_gold": 0.4,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.3,
+    "raw": "{\"category\": \"personal\", \"score\": 0.3}"
+  },
+  {
+    "id": "personal_5",
+    "category_gold": "personal",
+    "score_gold": 0.7,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.8,
+    "raw": "{\"category\": \"personal\", \"score\": 0.8}"
+  },
+  {
+    "id": "personal_5",
+    "category_gold": "personal",
+    "score_gold": 0.7,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.8,
+    "raw": "{\"category\": \"personal\", \"score\": 0.8}"
+  },
+  {
+    "id": "personal_5",
+    "category_gold": "personal",
+    "score_gold": 0.7,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"personal\", \"score\": 0.85}"
+  },
+  {
+    "id": "personal_6",
+    "category_gold": "personal",
+    "score_gold": 0.8,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.9,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.9}"
+  },
+  {
+    "id": "personal_6",
+    "category_gold": "personal",
+    "score_gold": 0.8,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.9,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.9}"
+  },
+  {
+    "id": "personal_6",
+    "category_gold": "personal",
+    "score_gold": 0.8,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.92,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.92}"
+  },
+  {
+    "id": "personal_7",
+    "category_gold": "personal",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "personal_7",
+    "category_gold": "personal",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "personal_7",
+    "category_gold": "personal",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "personal_8",
+    "category_gold": "personal",
+    "score_gold": 0.1,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "newsletter",
+    "scoreFromAI": 0.3,
+    "raw": "{\"category\": \"newsletter\", \"score\": 0.3}"
+  },
+  {
+    "id": "personal_8",
+    "category_gold": "personal",
+    "score_gold": 0.1,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "newsletter",
+    "scoreFromAI": 0.3,
+    "raw": "{\"category\": \"newsletter\", \"score\": 0.3}"
+  },
+  {
+    "id": "personal_8",
+    "category_gold": "personal",
+    "score_gold": 0.1,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "newsletter",
+    "scoreFromAI": 0.3,
+    "raw": "{\"category\": \"newsletter\", \"score\": 0.3}"
+  },
+  {
+    "id": "personal_9",
+    "category_gold": "personal",
+    "score_gold": 0.2,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.4,
+    "raw": "{\"category\": \"work\", \"score\": 0.4}"
+  },
+  {
+    "id": "personal_9",
+    "category_gold": "personal",
+    "score_gold": 0.2,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.5,
+    "raw": "{\"category\": \"work\", \"score\": 0.5}"
+  },
+  {
+    "id": "personal_9",
+    "category_gold": "personal",
+    "score_gold": 0.2,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.5,
+    "raw": "{\"category\": \"work\", \"score\": 0.5}"
+  },
+  {
+    "id": "personal_10",
+    "category_gold": "personal",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.4,
+    "raw": "{\"category\": \"personal\", \"score\": 0.4}"
+  },
+  {
+    "id": "personal_10",
+    "category_gold": "personal",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.4,
+    "raw": "{\"category\": \"personal\", \"score\": 0.4}"
+  },
+  {
+    "id": "personal_10",
+    "category_gold": "personal",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.4,
+    "raw": "{\"category\": \"personal\", \"score\": 0.4}"
+  },
+  {
+    "id": "personal_11",
+    "category_gold": "personal",
+    "score_gold": 0.4,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.4,
+    "raw": "{\"category\": \"work\", \"score\": 0.4}"
+  },
+  {
+    "id": "personal_11",
+    "category_gold": "personal",
+    "score_gold": 0.4,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.4,
+    "raw": "{\"category\": \"personal\", \"score\": 0.4}"
+  },
+  {
+    "id": "personal_11",
+    "category_gold": "personal",
+    "score_gold": 0.4,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.4,
+    "raw": "{\"category\": \"work\", \"score\": 0.4}"
+  },
+  {
+    "id": "personal_12",
+    "category_gold": "personal",
+    "score_gold": 0.5,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.6,
+    "raw": "{\"category\": \"personal\", \"score\": 0.6}"
+  },
+  {
+    "id": "personal_12",
+    "category_gold": "personal",
+    "score_gold": 0.5,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.6,
+    "raw": "{\"category\": \"personal\", \"score\": 0.6}"
+  },
+  {
+    "id": "personal_12",
+    "category_gold": "personal",
+    "score_gold": 0.5,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.6,
+    "raw": "{\"category\": \"personal\", \"score\": 0.6}"
+  },
+  {
+    "id": "personal_13",
+    "category_gold": "personal",
+    "score_gold": 0.7,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.93,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.93}"
+  },
+  {
+    "id": "personal_13",
+    "category_gold": "personal",
+    "score_gold": 0.7,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.93,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.93}"
+  },
+  {
+    "id": "personal_13",
+    "category_gold": "personal",
+    "score_gold": 0.7,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.93,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.93}"
+  },
+  {
+    "id": "personal_14",
+    "category_gold": "personal",
+    "score_gold": 0.7,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "personal_14",
+    "category_gold": "personal",
+    "score_gold": 0.7,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "personal_14",
+    "category_gold": "personal",
+    "score_gold": 0.7,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "personal_15",
+    "category_gold": "personal",
+    "score_gold": 0.8,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"personal\", \"score\": 0.85}"
+  },
+  {
+    "id": "personal_15",
+    "category_gold": "personal",
+    "score_gold": 0.8,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"personal\", \"score\": 0.85}"
+  },
+  {
+    "id": "personal_15",
+    "category_gold": "personal",
+    "score_gold": 0.8,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.9,
+    "raw": "{\"category\": \"personal\", \"score\": 0.9}"
+  },
+  {
+    "id": "personal_16",
+    "category_gold": "personal",
+    "score_gold": 0.8,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "personal_16",
+    "category_gold": "personal",
+    "score_gold": 0.8,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.97,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.97}"
+  },
+  {
+    "id": "personal_16",
+    "category_gold": "personal",
+    "score_gold": 0.8,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.97,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.97}"
+  },
+  {
+    "id": "personal_17",
+    "category_gold": "personal",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.98,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.98}"
+  },
+  {
+    "id": "personal_17",
+    "category_gold": "personal",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.98,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.98}"
+  },
+  {
+    "id": "personal_17",
+    "category_gold": "personal",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.98,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.98}"
+  },
+  {
+    "id": "personal_18",
+    "category_gold": "personal",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "personal_18",
+    "category_gold": "personal",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.97,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.97}"
+  },
+  {
+    "id": "personal_18",
+    "category_gold": "personal",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "personal_19",
+    "category_gold": "personal",
+    "score_gold": 0.2,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.4,
+    "raw": "{\"category\": \"personal\", \"score\": 0.4}"
+  },
+  {
+    "id": "personal_19",
+    "category_gold": "personal",
+    "score_gold": 0.2,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.4,
+    "raw": "{\"category\": \"personal\", \"score\": 0.4}"
+  },
+  {
+    "id": "personal_19",
+    "category_gold": "personal",
+    "score_gold": 0.2,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.4,
+    "raw": "{\"category\": \"personal\", \"score\": 0.4}"
+  },
+  {
+    "id": "personal_20",
+    "category_gold": "personal",
+    "score_gold": 0.5,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.6,
+    "raw": "{\"category\": \"work\", \"score\": 0.6}"
+  },
+  {
+    "id": "personal_20",
+    "category_gold": "personal",
+    "score_gold": 0.5,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.6,
+    "raw": "{\"category\": \"work\", \"score\": 0.6}"
+  },
+  {
+    "id": "personal_20",
+    "category_gold": "personal",
+    "score_gold": 0.5,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.6,
+    "raw": "{\"category\": \"work\", \"score\": 0.6}"
+  },
+  {
+    "id": "personal_21",
+    "category_gold": "personal",
+    "score_gold": 0.4,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.7,
+    "raw": "{\"category\": \"personal\", \"score\": 0.7}"
+  },
+  {
+    "id": "personal_21",
+    "category_gold": "personal",
+    "score_gold": 0.4,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.7,
+    "raw": "{\"category\": \"personal\", \"score\": 0.7}"
+  },
+  {
+    "id": "personal_21",
+    "category_gold": "personal",
+    "score_gold": 0.4,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.7,
+    "raw": "{\"category\": \"personal\", \"score\": 0.7}"
+  },
+  {
+    "id": "personal_22",
+    "category_gold": "personal",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.6,
+    "raw": "{\"category\": \"personal\", \"score\": 0.6}"
+  },
+  {
+    "id": "personal_22",
+    "category_gold": "personal",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.6,
+    "raw": "{\"category\": \"personal\", \"score\": 0.6}"
+  },
+  {
+    "id": "personal_22",
+    "category_gold": "personal",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.6,
+    "raw": "{\"category\": \"personal\", \"score\": 0.6}"
+  },
+  {
+    "id": "personal_23",
+    "category_gold": "personal",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.7,
+    "raw": "{\"category\": \"personal\", \"score\": 0.7}"
+  },
+  {
+    "id": "personal_23",
+    "category_gold": "personal",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.7,
+    "raw": "{\"category\": \"personal\", \"score\": 0.7}"
+  },
+  {
+    "id": "personal_23",
+    "category_gold": "personal",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.7,
+    "raw": "{\"category\": \"personal\", \"score\": 0.7}"
+  },
+  {
+    "id": "personal_24",
+    "category_gold": "personal",
+    "score_gold": 0.6,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.85}"
+  },
+  {
+    "id": "personal_24",
+    "category_gold": "personal",
+    "score_gold": 0.6,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.85}"
+  },
+  {
+    "id": "personal_24",
+    "category_gold": "personal",
+    "score_gold": 0.6,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.9,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.9}"
+  },
+  {
+    "id": "personal_25",
+    "category_gold": "personal",
+    "score_gold": 0.5,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.7,
+    "raw": "{\"category\": \"work\", \"score\": 0.7}"
+  },
+  {
+    "id": "personal_25",
+    "category_gold": "personal",
+    "score_gold": 0.5,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.72,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.72}"
+  },
+  {
+    "id": "personal_25",
+    "category_gold": "personal",
+    "score_gold": 0.5,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "work",
+    "scoreFromAI": 0.7,
+    "raw": "{\"category\": \"work\", \"score\": 0.7}"
+  },
+  {
+    "id": "personal_26",
+    "category_gold": "personal",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.4,
+    "raw": "{\"category\": \"personal\", \"score\": 0.4}"
+  },
+  {
+    "id": "personal_26",
+    "category_gold": "personal",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.4,
+    "raw": "{\"category\": \"personal\", \"score\": 0.4}"
+  },
+  {
+    "id": "personal_26",
+    "category_gold": "personal",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.4,
+    "raw": "{\"category\": \"personal\", \"score\": 0.4}"
+  },
+  {
+    "id": "personal_27",
+    "category_gold": "personal",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.4,
+    "raw": "{\"category\": \"personal\", \"score\": 0.4}"
+  },
+  {
+    "id": "personal_27",
+    "category_gold": "personal",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.4,
+    "raw": "{\"category\": \"personal\", \"score\": 0.4}"
+  },
+  {
+    "id": "personal_27",
+    "category_gold": "personal",
+    "score_gold": 0.3,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "personal",
+    "scoreFromAI": 0.4,
+    "raw": "{\"category\": \"personal\", \"score\": 0.4}"
+  },
+  {
+    "id": "urgent_1",
+    "category_gold": "urgent",
+    "score_gold": 1,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "urgent_1",
+    "category_gold": "urgent",
+    "score_gold": 1,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "urgent_1",
+    "category_gold": "urgent",
+    "score_gold": 1,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "urgent_2",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.9,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.9}"
+  },
+  {
+    "id": "urgent_2",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.9,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.9}"
+  },
+  {
+    "id": "urgent_2",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.9,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.9}"
+  },
+  {
+    "id": "urgent_3",
+    "category_gold": "urgent",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "promotional",
+    "scoreFromAI": 0.1,
+    "raw": "{\"category\": \"promotional\", \"score\": 0.1}"
+  },
+  {
+    "id": "urgent_3",
+    "category_gold": "urgent",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "promotional",
+    "scoreFromAI": 0.1,
+    "raw": "{\"category\": \"promotional\", \"score\": 0.1}"
+  },
+  {
+    "id": "urgent_3",
+    "category_gold": "urgent",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "promotional",
+    "scoreFromAI": 0.1,
+    "raw": "{\"category\": \"promotional\", \"score\": 0.1}"
+  },
+  {
+    "id": "urgent_4",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.98,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.98}"
+  },
+  {
+    "id": "urgent_4",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "urgent_4",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "urgent_5",
+    "category_gold": "urgent",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 1.0,
+    "raw": "{\"category\": \"urgent\", \"score\": 1.0}"
+  },
+  {
+    "id": "urgent_5",
+    "category_gold": "urgent",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 1.0,
+    "raw": "{\"category\": \"urgent\", \"score\": 1.0}"
+  },
+  {
+    "id": "urgent_5",
+    "category_gold": "urgent",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 1.0,
+    "raw": "{\"category\": \"urgent\", \"score\": 1.0}"
+  },
+  {
+    "id": "urgent_6",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "promotional",
+    "scoreFromAI": 0.2,
+    "raw": "{\"category\": \"promotional\", \"score\": 0.2}"
+  },
+  {
+    "id": "urgent_6",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "promotional",
+    "scoreFromAI": 0.2,
+    "raw": "{\"category\": \"promotional\", \"score\": 0.2}"
+  },
+  {
+    "id": "urgent_6",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "promotional",
+    "scoreFromAI": 0.2,
+    "raw": "{\"category\": \"promotional\", \"score\": 0.2}"
+  },
+  {
+    "id": "urgent_7",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.98,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.98}"
+  },
+  {
+    "id": "urgent_7",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.98,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.98}"
+  },
+  {
+    "id": "urgent_7",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.97,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.97}"
+  },
+  {
+    "id": "urgent_8",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.85}"
+  },
+  {
+    "id": "urgent_8",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.85}"
+  },
+  {
+    "id": "urgent_8",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.85}"
+  },
+  {
+    "id": "urgent_9",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "urgent_9",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "urgent_9",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "urgent_10",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.97,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.97}"
+  },
+  {
+    "id": "urgent_10",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.97,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.97}"
+  },
+  {
+    "id": "urgent_10",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.97,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.97}"
+  },
+  {
+    "id": "urgent_11",
+    "category_gold": "urgent",
+    "score_gold": 1,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "urgent_11",
+    "category_gold": "urgent",
+    "score_gold": 1,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "urgent_11",
+    "category_gold": "urgent",
+    "score_gold": 1,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "urgent_12",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.9,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.9}"
+  },
+  {
+    "id": "urgent_12",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.9,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.9}"
+  },
+  {
+    "id": "urgent_12",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.9,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.9}"
+  },
+  {
+    "id": "urgent_13",
+    "category_gold": "urgent",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.9,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.9}"
+  },
+  {
+    "id": "urgent_13",
+    "category_gold": "urgent",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "promotional",
+    "scoreFromAI": 0.1,
+    "raw": "{\"category\": \"promotional\", \"score\": 0.1}"
+  },
+  {
+    "id": "urgent_13",
+    "category_gold": "urgent",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "promotional",
+    "scoreFromAI": 0.1,
+    "raw": "{\"category\": \"promotional\", \"score\": 0.1}"
+  },
+  {
+    "id": "urgent_14",
+    "category_gold": "urgent",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "promotional",
+    "scoreFromAI": 0.1,
+    "raw": "{\"category\": \"promotional\", \"score\": 0.1}"
+  },
+  {
+    "id": "urgent_14",
+    "category_gold": "urgent",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "promotional",
+    "scoreFromAI": 0.1,
+    "raw": "{\"category\": \"promotional\", \"score\": 0.1}"
+  },
+  {
+    "id": "urgent_14",
+    "category_gold": "urgent",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "promotional",
+    "scoreFromAI": 0.1,
+    "raw": "{\"category\": \"promotional\", \"score\": 0.1}"
+  },
+  {
+    "id": "urgent_15",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 1.0,
+    "raw": "{\"category\": \"urgent\", \"score\": 1.0}"
+  },
+  {
+    "id": "urgent_15",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 1.0,
+    "raw": "{\"category\": \"urgent\", \"score\": 1.0}"
+  },
+  {
+    "id": "urgent_15",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 1.0,
+    "raw": "{\"category\": \"urgent\", \"score\": 1.0}"
+  },
+  {
+    "id": "urgent_16",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.85}"
+  },
+  {
+    "id": "urgent_16",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.85}"
+  },
+  {
+    "id": "urgent_16",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.85}"
+  },
+  {
+    "id": "urgent_17",
+    "category_gold": "urgent",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.85}"
+  },
+  {
+    "id": "urgent_17",
+    "category_gold": "urgent",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.85}"
+  },
+  {
+    "id": "urgent_17",
+    "category_gold": "urgent",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.85}"
+  },
+  {
+    "id": "urgent_18",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.97,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.97}"
+  },
+  {
+    "id": "urgent_18",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.97,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.97}"
+  },
+  {
+    "id": "urgent_18",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.97,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.97}"
+  },
+  {
+    "id": "urgent_19",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.98,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.98}"
+  },
+  {
+    "id": "urgent_19",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.98,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.98}"
+  },
+  {
+    "id": "urgent_19",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.98,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.98}"
+  },
+  {
+    "id": "urgent_20",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.85}"
+  },
+  {
+    "id": "urgent_20",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.85}"
+  },
+  {
+    "id": "urgent_20",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.35,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.35}"
+  },
+  {
+    "id": "urgent_21",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.85}"
+  },
+  {
+    "id": "urgent_21",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.85}"
+  },
+  {
+    "id": "urgent_21",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.85}"
+  },
+  {
+    "id": "urgent_22",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.85}"
+  },
+  {
+    "id": "urgent_22",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.85}"
+  },
+  {
+    "id": "urgent_22",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.85}"
+  },
+  {
+    "id": "urgent_23",
+    "category_gold": "urgent",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "promotional",
+    "scoreFromAI": 0.1,
+    "raw": "{\"category\": \"promotional\", \"score\": 0.1}"
+  },
+  {
+    "id": "urgent_23",
+    "category_gold": "urgent",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "promotional",
+    "scoreFromAI": 0.1,
+    "raw": "{\"category\": \"promotional\", \"score\": 0.1}"
+  },
+  {
+    "id": "urgent_23",
+    "category_gold": "urgent",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "promotional",
+    "scoreFromAI": 0.1,
+    "raw": "{\"category\": \"promotional\", \"score\": 0.1}"
+  },
+  {
+    "id": "urgent_24",
+    "category_gold": "urgent",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "promotional",
+    "scoreFromAI": 0.1,
+    "raw": "{\"category\": \"promotional\", \"score\": 0.1}"
+  },
+  {
+    "id": "urgent_24",
+    "category_gold": "urgent",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "promotional",
+    "scoreFromAI": 0.1,
+    "raw": "{\"category\": \"promotional\", \"score\": 0.1}"
+  },
+  {
+    "id": "urgent_24",
+    "category_gold": "urgent",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "promotional",
+    "scoreFromAI": 0.1,
+    "raw": "{\"category\": \"promotional\", \"score\": 0.1}"
+  },
+  {
+    "id": "urgent_25",
+    "category_gold": "urgent",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "promotional",
+    "scoreFromAI": 0.1,
+    "raw": "{\"category\": \"promotional\", \"score\": 0.1}"
+  },
+  {
+    "id": "urgent_25",
+    "category_gold": "urgent",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "promotional",
+    "scoreFromAI": 0.05,
+    "raw": "{\"category\": \"promotional\", \"score\": 0.05}"
+  },
+  {
+    "id": "urgent_25",
+    "category_gold": "urgent",
+    "score_gold": 1.0,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "promotional",
+    "scoreFromAI": 0.1,
+    "raw": "{\"category\": \"promotional\", \"score\": 0.1}"
+  },
+  {
+    "id": "urgent_26",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "urgent_26",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.99,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.99}"
+  },
+  {
+    "id": "urgent_26",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "urgent_27",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.97,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.97}"
+  },
+  {
+    "id": "urgent_27",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.98,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.98}"
+  },
+  {
+    "id": "urgent_27",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.97,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.97}"
+  },
+  {
+    "id": "urgent_28",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.85}"
+  },
+  {
+    "id": "urgent_28",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.85}"
+  },
+  {
+    "id": "urgent_28",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.85}"
+  },
+  {
+    "id": "urgent_29",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "urgent_29",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.85}"
+  },
+  {
+    "id": "urgent_29",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.85,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.85}"
+  },
+  {
+    "id": "urgent_30",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 0,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  },
+  {
+    "id": "urgent_30",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 1,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.7,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.7}"
+  },
+  {
+    "id": "urgent_30",
+    "category_gold": "urgent",
+    "score_gold": 0.9,
+    "provider": "cloud",
+    "run": 2,
+    "categoryFromAI": "urgent",
+    "scoreFromAI": 0.95,
+    "raw": "{\"category\": \"urgent\", \"score\": 0.95}"
+  }
+]
