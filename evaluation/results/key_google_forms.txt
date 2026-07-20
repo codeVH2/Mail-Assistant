@@ -1,0 +1,10 @@
+A = Timestamp
+B = Scenario 1 → A=local, B=cloud
+C = Scenario 2 → A=local, B=cloud
+D = Scenario 3 → A=cloud, B=local
+E = Scenario 4 → Control - Answer B
+F = Scenario 5 → A=local, B=cloud
+G = Scenario 6 → A=cloud, B=local
+H = Scenario 7 → A=cloud, B=local
+
+https://docs.google.com/forms/d/e/1FAIpQLSc3a_43KkJtKbcz9p3ARynLsTZtn2r9nUXpc4_Tt4Aiso6DLQ/viewform?usp=publish-editor
