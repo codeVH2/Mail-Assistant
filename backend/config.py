@@ -23,7 +23,7 @@ class Settings(BaseSettings):
 
     # Anthropic (only needed when ai_provider=cloud)
     anthropic_api_key: str = ""
-    anthropic_model: str = "claude-haiku-4-5-20251001"
+    anthropic_model: str = "claude-sonnet-4-6"
 
     # Gmail OAuth
     google_client_id: str = ""
