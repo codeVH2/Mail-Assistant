@@ -8,8 +8,6 @@ from providers.provider_factory import get_provider
 from typing import Literal
 from pydantic import BaseModel, Field, ValidationError
 
-
-
 # Gmail returns either a simple body or a multipart payload (HTML + plain text + attachments).
 # This helper handles both and returns the plain-text version, base64 decoded.
 def extract_body(payload):
@@ -35,7 +33,6 @@ def extract_header(message, header_name):
         
     return ""
 
-
 def fetch_message(service, message_id: str) -> dict:
     msg = service.users().messages().get(userId="me", id=message_id, format="full").execute()
     return {
@@ -44,26 +41,22 @@ def fetch_message(service, message_id: str) -> dict:
         "body": extract_body(msg["payload"]),
     }
 
+def fetch_message_metadata(service, message_id: str) -> dict:
+    msg = service.users().messages().get(userId="me", id=message_id, format="metadata", metadataHeaders=["Subject", "From"]).execute()
 
-# Flattens a Gmail thread into "[sender]: body" lines so the LLM gets the full
-# conversation as context, not just the latest message in isolation.
-def build_conversation(thread, user_email):
-    lines = []
-    for msg in thread["messages"]:
-        sender = extract_header(msg, "From")
-        if user_email in sender:
-            sender = "Me"
-        body = extract_body(msg["payload"])
-        lines.append(f"[{sender}]: {body}")
-
-    return "\n\n".join(lines)
+    return {
+        "id": msg["id"],
+        "threadId": msg["threadId"],
+        "subject": extract_header(msg, "Subject"),
+        "sender": extract_header(msg, "From"),
+        "snippet": msg.get("snippet", ""),
+    }
 
 Category = Literal["urgent", "work", "personal", "newsletter", "promotional"]
 
 class PrioritizeResponse(BaseModel):
     category: Category
     score: float = Field(ge=0.0, le=1.0)
-
 
 def parse_llm_json(raw: str) -> dict:
     cleaned = re.sub(r"^```(?:json)?\s*|\s*```$", "", raw.strip(), flags=re.MULTILINE)
@@ -75,40 +68,49 @@ def parse_llm_json(raw: str) -> dict:
 
 router = APIRouter()
 
-# Returns the 10 most recent message IDs from the user's inbox.
-# Body and metadata are NOT included — call /reply-suggest to fetch a specific email.
+# Returns metadata (subject, sender, snippet) for the 10 most recent inbox messages.
+# Body is NOT fetched here — /reply-suggest and /prioritize fetch it per-message on demand.
 @router.get("/emails")
 async def list_emails():
     credentials = token_store["credentials"]
     service = build("gmail", "v1", credentials=credentials)
     results = service.users().messages().list(userId="me", maxResults=10, labelIds=["INBOX"]).execute()
-    return results
 
+    ids = []
+
+    for msg in results.get("messages", []):
+        ids.append(msg.get("id"))
+
+    return [fetch_message_metadata(service, msg_id) for msg_id in ids]
+
+# Returns the full content of a single Gmail message, including body.
+@router.get("/emails/{message_id}")
+async def get_email(message_id: str):
+    credentials = token_store["credentials"]
+    service = build("gmail", "v1", credentials=credentials)
+    return fetch_message(service, message_id)
 
 # Generates a reply suggestion for a given Gmail message.
 # Email content lives only in memory during this call — never persisted.
 @router.post("/reply-suggest")
-async def reply_suggest(thread_id: str):
+async def reply_suggest(message_id: str):
     credentials = token_store["credentials"]
     service = build("gmail", "v1", credentials=credentials)
 
-    thread = service.users().threads().get(
-        userId="me", id=thread_id, format="full").execute()
-    
-    profile = service.users().getProfile(userId="me").execute()
-    conversation = build_conversation(thread, profile["emailAddress"])
+    message = fetch_message(service, message_id) 
 
     # Provider selected via AI_PROVIDER env var (local Ollama or cloud Anthropic)
     provider = get_provider()
     responseSuggestion = await provider.complete(
-        f"""You are the recipient of the latest message in this email conversation.
-            Write a short, natural reply to the latest message.
-            Do not summarise the conversation. Reply as if you were the person being addressed.
+        f"""You are the recipient of the email below.
+            Write a short, natural reply to it.
+            Reply as if you were the person being addressed.
 
-            Conversation:
-            {conversation}
+            Email:
+            {message['body']}
 
             Your reply:"""
+
     )
 
     return {"response": responseSuggestion}
