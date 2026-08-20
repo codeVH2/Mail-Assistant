@@ -43,4 +43,9 @@ async def gmail_callback(code: str):
     flow.redirect_uri = settings.google_redirect_uri ##comfirm that the redirect is the same as the one used in the authorization step
     flow.fetch_token(code=code)
     token_store["credentials"] = flow.credentials ##acess token and refresh token stored
-    return {"message": "Login successful"}
+    return RedirectResponse("http://localhost:3000")
+
+@router.get("/auth/status")
+async def auth_status():
+    return {"authenticated": "credentials" in token_store}
+
