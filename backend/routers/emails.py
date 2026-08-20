@@ -92,7 +92,7 @@ async def get_email(message_id: str):
 
 # Generates a reply suggestion for a given Gmail message.
 # Email content lives only in memory during this call — never persisted.
-@router.post("/reply-suggest")
+@router.post("/emails/{message_id}/reply-suggest")
 async def reply_suggest(message_id: str):
     credentials = token_store["credentials"]
     service = build("gmail", "v1", credentials=credentials)
@@ -115,7 +115,7 @@ async def reply_suggest(message_id: str):
 
     return {"response": responseSuggestion}
 
-@router.post("/prioritize", response_model=PrioritizeResponse)
+@router.post("/emails/{message_id}/prioritize", response_model=PrioritizeResponse)
 async def prioritize(message_id: str):
     credentials = token_store["credentials"]
     service = build("gmail", "v1", credentials=credentials)

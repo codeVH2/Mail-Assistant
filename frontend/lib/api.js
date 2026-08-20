@@ -15,13 +15,13 @@ export const listEmails = () => request("/emails", { method: "GET" });
 // GET /emails/{id} → {subject, sender, body}
 export const getEmail = (id) => request(`/emails/${id}`, { method: "GET" });
 
-// POST /reply-suggest?message_id=... → {response}
+// POST /emails/{id}/reply-suggest → {response}
 export const suggestReply = (id) =>
-  request(`/reply-suggest?message_id=${id}`, { method: "POST" });
+  request(`/emails/${id}/reply-suggest`, { method: "POST" });
 
-// POST /prioritize?message_id=... → {category, score}
+// POST /emails/{id}/prioritize → {category, score}
 export const prioritize = (id) =>
-  request(`/prioritize?message_id=${id}`, { method: "POST" });
+  request(`/emails/${id}/prioritize`, { method: "POST" });
 
 // GET /auth/status → {authenticated}
 export const authStatus = () => request("/auth/status", { method: "GET" });
