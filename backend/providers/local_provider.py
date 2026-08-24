@@ -9,6 +9,7 @@ class LocalProvider(AIProvider):
 
     def __init__(self):
         self.base_url = settings.ollama_base_url
+        self.name = "local"
         self.model = settings.ollama_model
 
     async def complete(self, prompt: str) -> str:

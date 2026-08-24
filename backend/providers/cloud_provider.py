@@ -9,6 +9,7 @@ class CloudProvider(AIProvider):
 
     def __init__(self):
         self.client = anthropic.AsyncAnthropic(api_key=settings.anthropic_api_key)
+        self.name = "cloud"
         self.model = settings.anthropic_model
 
     async def complete(self, prompt: str) -> str:
