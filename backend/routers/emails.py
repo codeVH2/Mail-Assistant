@@ -7,6 +7,7 @@ from fastapi import APIRouter, HTTPException
 from providers.provider_factory import get_provider
 from typing import Literal
 from pydantic import BaseModel, Field, ValidationError
+import html
 
 # Gmail returns either a simple body or a multipart payload (HTML + plain text + attachments).
 # This helper handles both and returns the plain-text version, base64 decoded.
@@ -49,7 +50,8 @@ def fetch_message_metadata(service, message_id: str) -> dict:
         "threadId": msg["threadId"],
         "subject": extract_header(msg, "Subject"),
         "sender": extract_header(msg, "From"),
-        "snippet": msg.get("snippet", ""),
+        # Gmail HTML-escapes the snippet for its own web UI; the body (text/plain) does not need this.
+        "snippet": html.unescape(msg.get("snippet", "")), 
     }
 
 Category = Literal["urgent", "work", "personal", "newsletter", "promotional"]

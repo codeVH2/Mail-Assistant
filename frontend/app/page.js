@@ -63,6 +63,8 @@ export default function Home() {
         emails.map((email) =>
           prioritize(email.id).then((data) => {
             return { ...email, ...data };
+          }).catch(() => {
+            return {...email, category: "unclassified", score: 0} //if classification fails, default values
           }),
         ),
       );
