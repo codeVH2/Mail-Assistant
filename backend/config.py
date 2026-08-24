@@ -14,9 +14,6 @@ class Settings(BaseSettings):
     # Database
     database_url: str = "postgresql+psycopg://mail_assistant:mail_assistant@localhost:5432/mail_assistant"
 
-    # AI provider: "local" uses Ollama, "cloud" uses Anthropic
-    ai_provider: str = "local"
-
     # Ollama
     ollama_base_url: str = "http://localhost:11434"
     ollama_model: str = "llama3.1:8b"

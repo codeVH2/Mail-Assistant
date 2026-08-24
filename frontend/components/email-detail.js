@@ -3,14 +3,14 @@ import { useState } from "react";
 import { suggestReply } from "@/lib/api";
 import SuggestReplyPanel from "@/components/suggest-reply-panel";
 
-export default function EmailDetail({ email }) {
+export default function EmailDetail({ email, aiProvider }) {
   const [response, setResponse] = useState(null);
   const [loading, setLoading] = useState(false);
 
   async function handleSuggestReply() {
     setLoading(true);
     try {
-      const aiResponse = await suggestReply(email.id);
+      const aiResponse = await suggestReply(email.id, aiProvider);
       setResponse(aiResponse.response);
     } catch (error) {
       console.error("Error on AI response suggestion:", error);

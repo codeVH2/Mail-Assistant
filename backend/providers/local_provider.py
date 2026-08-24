@@ -19,6 +19,7 @@ class LocalProvider(AIProvider):
                 json={"model": self.model, "prompt": prompt, "stream": False},
             )
             response.raise_for_status()
+            print("chamada ao ollama feita")
             return response.json()["response"]
 
     async def health_check(self) -> bool:

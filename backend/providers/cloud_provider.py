@@ -18,6 +18,7 @@ class CloudProvider(AIProvider):
             max_tokens=1024,
             messages=[{"role": "user", "content": prompt}],
         )
+        print("chamada ao claude feita")
         return message.content[0].text
 
     async def health_check(self) -> bool:
