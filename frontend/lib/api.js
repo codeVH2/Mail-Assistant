@@ -16,12 +16,12 @@ export const listEmails = () => request("/emails", { method: "GET" });
 export const getEmail = (id) => request(`/emails/${id}`, { method: "GET" });
 
 // POST /emails/{id}/reply-suggest → {response}
-export const suggestReply = (id) =>
-  request(`/emails/${id}/reply-suggest`, { method: "POST" });
+export const suggestReply = (id, providerName) =>
+  request(`/emails/${id}/reply-suggest?provider_name=${providerName}`, {method: "POST" });
 
 // POST /emails/{id}/prioritize → {category, score}
-export const prioritize = (id) =>
-  request(`/emails/${id}/prioritize`, { method: "POST" });
+export const prioritize = (id, providerName) =>
+  request(`/emails/${id}/prioritize?provider_name=${providerName}`, { method: "POST" });
 
 // GET /auth/status → {authenticated}
 export const authStatus = () => request("/auth/status", { method: "GET" });

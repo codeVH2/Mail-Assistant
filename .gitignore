@@ -12,3 +12,4 @@ postgres_data/
 test_run.py
 evaluation/raw_data/
 thesis/
+.DS_Store

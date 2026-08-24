@@ -101,14 +101,13 @@ async def get_email(message_id: str):
 # Generates a reply suggestion for a given Gmail message.
 # Email content lives only in memory during this call — never persisted.
 @router.post("/emails/{message_id}/reply-suggest")
-async def reply_suggest(message_id: str):
+async def reply_suggest(message_id: str, provider_name: Literal["local", "cloud"] | None = None):
     credentials = token_store["credentials"]
     service = build("gmail", "v1", credentials=credentials)
 
     message = fetch_message(service, message_id) 
 
-    # Provider selected via AI_PROVIDER env var (local Ollama or cloud Anthropic)
-    provider = get_provider()
+    provider = get_provider(provider_name)
     responseSuggestion = await provider.complete(
         f"""You are the recipient of the email below.
             Write a short, natural reply to it.
@@ -124,8 +123,8 @@ async def reply_suggest(message_id: str):
     return {"response": responseSuggestion}
 
 @router.post("/emails/{message_id}/prioritize", response_model=PrioritizeResponse)
-async def prioritize(message_id: str, db: Session = Depends(get_db)):
-    provider = get_provider()
+async def prioritize(message_id: str, db: Session = Depends(get_db), provider_name: Literal["local", "cloud"] | None = None):
+    provider = get_provider(provider_name)
 
     #verify if the classification is already in the database
     cache_query = select(EmailClassification).where(

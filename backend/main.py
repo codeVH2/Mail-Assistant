@@ -24,7 +24,7 @@ app.add_middleware(
 
 @app.get("/health")
 async def health():
-    return {"status": "ok", "ai_provider": settings.ai_provider}
+    return {"status": "ok",}
 
 app.include_router(auth.router)
 app.include_router(emails.router)
