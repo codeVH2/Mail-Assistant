@@ -7,7 +7,13 @@ from fastapi import APIRouter, HTTPException
 from providers.provider_factory import get_provider
 from typing import Literal
 from pydantic import BaseModel, Field, ValidationError
+from fastapi import Depends
+from sqlalchemy.orm import Session
+from sqlalchemy import select
+from db.database import get_db
+from db.models import EmailClassification
 import html
+
 
 # Gmail returns either a simple body or a multipart payload (HTML + plain text + attachments).
 # This helper handles both and returns the plain-text version, base64 decoded.
@@ -118,7 +124,22 @@ async def reply_suggest(message_id: str):
     return {"response": responseSuggestion}
 
 @router.post("/emails/{message_id}/prioritize", response_model=PrioritizeResponse)
-async def prioritize(message_id: str):
+async def prioritize(message_id: str, db: Session = Depends(get_db)):
+    provider = get_provider()
+
+    #verify if the classification is already in the database
+    cache_query = select(EmailClassification).where(
+        EmailClassification.message_id == message_id,
+        EmailClassification.provider == provider.name,
+        EmailClassification.model == provider.model,
+        )
+    
+    cached = db.execute(cache_query).scalar_one_or_none()
+    if cached:
+        print("already in cache")
+        return PrioritizeResponse(category=cached.category, score=cached.score)
+
+    
     credentials = token_store["credentials"]
     service = build("gmail", "v1", credentials=credentials)
 
@@ -150,13 +171,24 @@ async def prioritize(message_id: str):
                 {{"category": "<one of the five>", "score": <float between 0 and 1>}}"""
     
 
-    provider = get_provider()
-
     response = await provider.complete(prompt)
     
     try:
         parsed = parse_llm_json(response)
-        return PrioritizeResponse(**parsed)
+        result = PrioritizeResponse(**parsed)
+
+        # Store the classification in the database for future requests
+        classification = EmailClassification(
+            message_id=message_id,
+            category=result.category,
+            score=result.score,
+            provider=provider.name,
+            model=provider.model,
+        )
+        db.add(classification)
+        db.commit()
+        return result
+
     except (ValueError, json.JSONDecodeError, ValidationError) as e:
         raise HTTPException(status_code=502, detail=f"LLM produced invalid output: {e}")
 

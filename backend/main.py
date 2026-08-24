@@ -1,9 +1,11 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware ##for frontend be able to call backend API without CORS issues
-
 from config import settings
-
 from routers import auth, emails
+from db.database import Base, engine
+from db import models  #registers the table on Base.metadata, need this import
+
+Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
     title="Mail Assistant",
