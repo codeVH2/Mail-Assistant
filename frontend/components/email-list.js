@@ -7,6 +7,7 @@ const CATEGORY_ORDER = [
   "personal",
   "newsletter",
   "promotional",
+  "unclassified",
 ];
 
 export default function EmailList({ emails, onSelect }) {
