@@ -1,4 +1,3 @@
-from config import settings
 from providers.base_interface import AIProvider
 from providers.cloud_provider import CloudProvider
 from providers.local_provider import LocalProvider
