@@ -1,0 +1,7 @@
+scenario,email,votes,local,cloud,provider_a,local_share
+1,reply_1,31,16,15,local,0.516
+2,reply_2,31,18,13,local,0.581
+3,reply_3,31,14,17,cloud,0.452
+5,reply_4,31,14,17,local,0.452
+6,reply_5,31,11,20,cloud,0.355
+7,reply_6,31,16,15,cloud,0.516
