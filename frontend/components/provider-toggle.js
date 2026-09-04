@@ -16,7 +16,7 @@ export default function ProviderToggle({ value, onChange }) {
       {/* Cloud processing sends content off the machine, so the trade-off is
           stated up front rather than buried in settings. */}
       {value === "cloud" && (
-        <p className="mt-2 rounded border border-amber-600 bg-amber-950/40 px-3 py-2 text-sm text-amber-400">
+        <p className="mt-2 rounded border border-red-900 bg-red-100 px-3 py-2 text-sm font-semibold text-gray-900 te">
           Email content will be sent to Anthropic (US) for processing. Switch
           back to Local to keep it on this machine.
         </p>
