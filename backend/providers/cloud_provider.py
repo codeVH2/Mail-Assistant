@@ -5,7 +5,7 @@ from providers.base_interface import AIProvider
 
 
 class CloudProvider(AIProvider):
-    """Calls Anthropic's API — used only for the comparative evaluation."""
+    """Calls Anthropic's API"""
 
     def __init__(self):
         self.client = anthropic.AsyncAnthropic(api_key=settings.anthropic_api_key)
@@ -18,7 +18,7 @@ class CloudProvider(AIProvider):
             max_tokens=1024,
             messages=[{"role": "user", "content": prompt}],
         )
-        print("chamada ao claude feita")
+        print("Anthropic call completed")
         return message.content[0].text
 
     async def health_check(self) -> bool:

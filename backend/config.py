@@ -6,7 +6,7 @@ _ENV_FILE = Path(__file__).parent.parent / ".env"
 
 
 # BaseSettings auto-loads values from the .env file:
-# each field name (lowercase) maps to its uppercase env var (e.g. ai_provider <- AI_PROVIDER).
+# each field name (lowercase) maps to its uppercase env var (e.g. ollama_model <- OLLAMA_MODEL).
 # Defaults below are used only when the variable is missing from .env.
 class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=_ENV_FILE, env_file_encoding="utf-8", extra="ignore")
@@ -18,7 +18,7 @@ class Settings(BaseSettings):
     ollama_base_url: str = "http://localhost:11434"
     ollama_model: str = "llama3.1:8b"
 
-    # Anthropic (only needed when ai_provider=cloud)
+    # Anthropic (only needed when a request selects the cloud provider)
     anthropic_api_key: str = ""
     anthropic_model: str = "claude-sonnet-4-6"
 

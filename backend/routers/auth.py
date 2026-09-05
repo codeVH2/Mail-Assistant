@@ -5,7 +5,6 @@ from fastapi.responses import RedirectResponse
 from config import settings
 
 # Describes our app to Google. Same shape google_auth_oauthlib expects from the JSON downloaded
-# from the Cloud Console — but we keep secrets in .env, not on disk.
 client_config = {
     "web": {
         "client_id": settings.google_client_id,

@@ -1,6 +1,8 @@
 """Study 2: do human raters prefer the local model's replies or the cloud model's?
 
-36 respondents each judged the same 6 blind AI-vs-AI pairs, plus an attention check.
+Each respondent judged the same 6 blind AI-vs-AI pairs, plus an attention check.
+36 responses were collected; 5 failed the attention check and are dropped here,
+leaving 31 respondents x 6 pairs = 186 judgments.
 Run from anywhere; add `> ../results/reply_stats.txt` to keep the report.
 """
 

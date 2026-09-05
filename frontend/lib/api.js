@@ -9,7 +9,7 @@ async function request(path, options) {
   return res.json();
 }
 
-// GET /emails → lista de {id, threadId, subject, sender, snippet}
+// GET /emails → list of {id, threadId, subject, sender, snippet}
 export const listEmails = () => request("/emails", { method: "GET" });
 
 // GET /emails/{id} → {subject, sender, body}

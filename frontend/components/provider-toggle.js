@@ -1,11 +1,11 @@
-export default function ProviderToggle({ value, onChange }) {
+export default function ProviderToggle({ value, handleProviderChange }) {
   return (
     <div>
       <label className="flex items-center gap-2 text-sm">
         <span className="text-gray-400">AI provider</span>
         <select
           value={value}
-          onChange={(event) => onChange(event.target.value)}
+          onChange={(event) => handleProviderChange(event.target.value)}
           className="rounded border border-gray-600 bg-transparent px-2 py-1"
         >
           <option value="local">Local (llama3.1:8b)</option>

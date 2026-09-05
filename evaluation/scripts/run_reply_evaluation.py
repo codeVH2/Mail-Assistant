@@ -22,12 +22,13 @@ RESULTS_DIR = Path(__file__).resolve().parents[1] / "results"
 
 
 # --- Prompt ------------------------------------------------------------------
-# IMPORTANT: this MUST stay identical to the prompt the product sends in
-# backend/routers/emails.py (the /reply-suggest handler). If the two drift, the
-# study no longer measures what the product ships. The product builds the
-# conversation from a Gmail thread as "[sender]: body" lines (own email → "Me");
-# here each reply_set item is a single inbound email, so the conversation is one
-# line and there is no "Me" turn (the user hasn't replied yet).
+# This is the prompt Study 2 was run with, kept here verbatim so the published
+# results stay reproducible from this file alone. It is a standalone copy, not a
+# shared import: the /reply-suggest handler in backend/routers/emails.py was
+# later simplified to address a single email rather than a conversation, so the
+# two wordings are no longer identical. The divergence is discussed in the
+# thesis; do not edit this prompt, or the results here stop being reproducible.
+# Each reply_set item is one inbound email, so the conversation is a single line.
 def build_reply_prompt(email: dict) -> str:
     conversation = f"[{email['from']}]: {email['body']}"
     return f"""You are the recipient of the latest message in this email conversation.

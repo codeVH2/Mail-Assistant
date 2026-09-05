@@ -1,4 +1,4 @@
-.PHONY: up down logs shell lint install dev
+.PHONY: up down logs shell install dev
 
 up:
 	docker compose up -d
@@ -17,6 +17,3 @@ install:
 
 dev:
 	cd backend && uvicorn main:app --reload --host 0.0.0.0 --port 8000
-
-lint:
-	cd backend && python3 -m ruff check . && python3 -m ruff format --check .

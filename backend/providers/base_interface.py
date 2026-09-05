@@ -1,6 +1,5 @@
 from abc import ABC, abstractmethod
 
-
 class AIProvider(ABC):
     """Unified interface for local and cloud AI providers."""
     name: str  # e.g. "local" or "cloud"

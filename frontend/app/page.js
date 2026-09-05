@@ -50,6 +50,15 @@ export default function Home() {
     );
   }
 
+    function handleProviderChange(nextProvider) {
+    setAiProvider(nextProvider);
+
+    setEmails((prev) =>
+      prev.map((email) => ({ ...email, category: undefined, score: undefined })),
+    );
+  }
+
+
   function selectEmail(id) {
     getEmail(id)
       .then((data) => setSelectedEmail({ ...data, id }))
@@ -86,7 +95,7 @@ export default function Home() {
       <h1 className="text-4xl font-bold mb-4">Inbox</h1>
 
       <div className="mb-4">
-        <ProviderToggle value={aiProvider} onChange={setAiProvider} />
+        <ProviderToggle value={aiProvider} handleProviderChange={handleProviderChange} />
       </div>
 
       <button

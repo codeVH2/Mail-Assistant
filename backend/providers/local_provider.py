@@ -5,7 +5,7 @@ from providers.base_interface import AIProvider
 
 
 class LocalProvider(AIProvider):
-    """Calls Ollama running locally — email content never leaves the machine."""
+    """Calls Ollama running locally"""
 
     def __init__(self):
         self.base_url = settings.ollama_base_url
@@ -19,7 +19,7 @@ class LocalProvider(AIProvider):
                 json={"model": self.model, "prompt": prompt, "stream": False},
             )
             response.raise_for_status()
-            print("chamada ao ollama feita")
+            print("Ollama call completed")
             return response.json()["response"]
 
     async def health_check(self) -> bool:
